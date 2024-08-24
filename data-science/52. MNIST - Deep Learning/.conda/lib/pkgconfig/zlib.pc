@@ -1,0 +1,13 @@
+prefix=/Users/gabrielmarcellinojoestiawan/Desktop/coding/belajar/course/data science/52. MNIST - Deep Learning/.conda
+exec_prefix=/Users/gabrielmarcellinojoestiawan/Desktop/coding/belajar/course/data science/52. MNIST - Deep Learning/.conda
+libdir=/Users/gabrielmarcellinojoestiawan/Desktop/coding/belajar/course/data science/52. MNIST - Deep Learning/.conda/lib
+sharedlibdir=/Users/gabrielmarcellinojoestiawan/Desktop/coding/belajar/course/data science/52. MNIST - Deep Learning/.conda/lib
+includedir=/Users/gabrielmarcellinojoestiawan/Desktop/coding/belajar/course/data science/52. MNIST - Deep Learning/.conda/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
